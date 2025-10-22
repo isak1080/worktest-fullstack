@@ -8,11 +8,14 @@ Build a full-stack training management application using ASP.NET Core (backend) 
 
 ## Task Overview
 
-Below is a list of tasks to implement. Focus on completing as much as possible within the time limit. If you skip any part, be ready to discuss your approach during the interview.
+Below is a list of tasks to implement. Focus on completing as much as possible within the time limit, but
+if you get stuck on something just move on to the next requirement instead.
+
+If you skip something, be prepared to discuss during the interview how it could have been solved
 
 ### Time Limit
 
-Estimated time: **4-5 hours**. You may spend more or less time as needed.
+Estimated time: **4-5 hours**, but you may spend as much or as little time as you see fit.
 
 ### Backend Requirements (ASP.NET Core)
 
@@ -20,7 +23,7 @@ Estimated time: **4-5 hours**. You may spend more or less time as needed.
   - **Athletes**: Manage athlete profiles.
   - **Exercises**: Manage exercise definitions.
   - **Groups**: Manage training groups.
-- Use the provided in-memory database.
+- Use Entity Framework Core with the provided in-memory SQLite database. 
 - Return appropriate HTTP status codes and handle errors gracefully.
 - Add basic validation for input data.
 
