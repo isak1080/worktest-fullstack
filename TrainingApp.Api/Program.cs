@@ -21,10 +21,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.MapGet("/api/test", () => "API is working!");
-app.MapGet("/seed", (TrainingContext db) =>
+app.MapPost("/create-db", (TrainingContext db) =>
 {
     db.Database.EnsureCreated();
-    // TODO: Seed database
-    return Results.Ok($"Database seeded - {db.Athletes.Count()} athletes, {db.Groups.Count()} groups, {db.Exercises.Count()} exercises");
+    // TODO: Seed database if needed
+    return Results.Ok($"Database created - {db.Athletes.Count()} athletes, {db.Groups.Count()} groups, {db.Exercises.Count()} exercises");
 });
 app.Run();
