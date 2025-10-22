@@ -1,51 +1,60 @@
 # 1080Motion - Training App Work Test
 
-Starting code for a timeboxed work test for a full stack developer position.
+This repository contains the starting code for a timeboxed work test for a full-stack developer position.
 
-## Task
+## Objective
 
-Build a full-stack training management application using ASP.NET Core for the backend and React for the frontend. The application should allow users to manage athletes, exercises, and training groups.
+Build a full-stack training management application using ASP.NET Core (backend) and React (frontend). The app should allow users to manage athletes, exercises, and training groups.
 
-Below is a list of things to implement. Try to implement as much as possible, but don't get stuck for too long on any specific task.
+## Task Overview
 
-If you skip some part of the task, be prepared to discuss during the interview how it could be solved
+Below is a list of tasks to implement. Focus on completing as much as possible within the time limit. If you skip any part, be ready to discuss your approach during the interview.
 
 ### Time Limit
-This is a timeboxed exercise. The task is expected to take approximately **4-5 hours** to
-complete, but you can spend as much or as little time as you want.
 
+Estimated time: **4-5 hours**. You may spend more or less time as needed.
 
 ### Backend Requirements (ASP.NET Core)
+
 - Implement CRUD (Create, Read, Update, Delete) endpoints for:
-    - **Athletes**: Manage athlete profiles
-    - **Exercises**: Manage exercise definitions
-    - **Groups**: Manage training groups
-- Use the provided in-memory database
-- Ensure proper HTTP status codes and error handling
-- Add basic validation for input data
+  - **Athletes**: Manage athlete profiles.
+  - **Exercises**: Manage exercise definitions.
+  - **Groups**: Manage training groups.
+- Use the provided in-memory database.
+- Return appropriate HTTP status codes and handle errors gracefully.
+- Add basic validation for input data.
 
 ### Frontend Requirements (React)
-- Create a user interface to interact with all backend endpoints
-- Implement the following views:
-    - List all athletes/exercises/groups
-    - Create new athletes/exercises/groups
-    - Edit existing records
-    - Delete records
-- Display appropriate feedback for user actions (success/error messages)
-- Ensure the UI is responsive and user-friendly
 
-### Stretch Goals 
-- Add the ability to assign athletes to groups
-- Implement basic search or filtering functionality
-- Add loading states and error handling in the UI
-- Add unit and/or integration tests for the backend
+- Initialize a TypeScript React project using Vite:
+  - `pnpm create vite frontend --template react-ts`
+- Use TypeScript throughout the project.
+- Build a user interface to interact with all backend endpoints.
+- Implement views for:
+  - Listing all athletes, exercises, and groups.
+  - Creating new athletes, exercises, and groups.
+  - Editing existing records.
+  - Deleting records.
+- Provide clear feedback for user actions (success/error messages).
+- Ensure the UI is responsive and user-friendly.
+- You may use any framework/library (or none). Recommended libraries:
+  - [TailwindCSS](https://tailwindcss.com/) – for styling
+  - [shadcn](https://ui.shadcn.com/) – for UI components
+  - [TanStack Router](https://tanstack.com/router) – for routing
+  - [TanStack Query](https://tanstack.com/Query) – for data fetching
 
-### Deliverables
+### Stretch Goals
 
-Source code (either in a public repo or as a zip file)
+- Assign athletes to groups.
+- Add search or filtering features.
+- Implement loading states and error handling in the UI.
+- Write unit and/or integration tests for the backend.
 
-A short README.md covering:
+## Deliverables
 
-- Code structure, design choices. How will you scale?
-- Did you use more time than expected? Or less? If so, why?
-- What would you do differently next time?
+Submit your source code as a public repository or zip file.
+
+Include a short README.md covering:
+- Code structure and design choices. How will the application scale?
+- Time spent vs. expected, and why.
+- What you would do differently with more time.
