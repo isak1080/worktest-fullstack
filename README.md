@@ -1,36 +1,51 @@
-# TrainingApp Work Test Starter
+# 1080Motion - Training App Work Test
 
-This is a starter project for the full-stack developer test.
+Starting code for a timeboxed work test for a full stack developer position.
 
-## Backend (ASP.NET Core Minimal API)
+## Task
 
-### Run Instructions
+Build a full-stack training management application using ASP.NET Core for the backend and React for the frontend. The application should allow users to manage athletes, exercises, and training groups.
 
-```bash
-cd TrainingApp.Api
-dotnet run
-```
+Below is a list of things to implement. Try to implement as much as possible, but don't get stuck for too long on any specific task.
 
-Implements basic structure for:
-- Athletes
-- Exercises
-- Groups
+If you skip some part of the task, be prepared to discuss during the interview how it could be solved
 
-Use the in-memory database and add CRUD endpoints in `Program.cs`.
+### Time Limit
+This is a timeboxed exercise. The task is expected to take approximately **4-5 hours** to
+complete, but you can spend as much or as little time as you want.
 
----
 
-## Frontend (React)
+### Backend Requirements (ASP.NET Core)
+- Implement CRUD (Create, Read, Update, Delete) endpoints for:
+    - **Athletes**: Manage athlete profiles
+    - **Exercises**: Manage exercise definitions
+    - **Groups**: Manage training groups
+- Use the provided in-memory database
+- Ensure proper HTTP status codes and error handling
+- Add basic validation for input data
 
-You can create the frontend in a separate folder named `/frontend` using Vite or Create React App.
+### Frontend Requirements (React)
+- Create a user interface to interact with all backend endpoints
+- Implement the following views:
+    - List all athletes/exercises/groups
+    - Create new athletes/exercises/groups
+    - Edit existing records
+    - Delete records
+- Display appropriate feedback for user actions (success/error messages)
+- Ensure the UI is responsive and user-friendly
 
-Example:
+### Stretch Goals 
+- Add the ability to assign athletes to groups
+- Implement basic search or filtering functionality
+- Add loading states and error handling in the UI
+- Add unit and/or integration tests for the backend
 
-```bash
-npm create vite@latest frontend -- --template react
-cd frontend
-npm install
-npm run dev
-```
+### Deliverables
 
-Connect the frontend to the backend API running at `http://localhost:5000`.
+Source code (either in a public repo or as a zip file)
+
+A short README.md covering:
+
+- Code structure, design choices. How will you scale?
+- Did you use more time than expected? Or less? If so, why?
+- What would you do differently next time?

@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingApp.Api", "TrainingApp.Api.csproj", "{9571E3A9-D913-4C68-A40F-489677E890A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingApp.Api", "TrainingApp.Api\TrainingApp.Api.csproj", "{9571E3A9-D913-4C68-A40F-489677E890A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{0B019098-94E7-433B-89C6-0AAA8D759BA0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
